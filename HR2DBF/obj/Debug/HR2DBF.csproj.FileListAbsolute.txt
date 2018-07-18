@@ -1,0 +1,22 @@
+c:\users\iwa\documents\visual studio 2015\Projects\HR2DBF\HR2DBF\obj\Debug\HR2DBF.frmMain.resources
+c:\users\iwa\documents\visual studio 2015\Projects\HR2DBF\HR2DBF\obj\Debug\HR2DBF.Properties.Resources.resources
+c:\users\iwa\documents\visual studio 2015\Projects\HR2DBF\HR2DBF\obj\Debug\HR2DBF.csproj.GenerateResource.Cache
+c:\users\iwa\documents\visual studio 2015\Projects\HR2DBF\HR2DBF\bin\Debug\HR2DBF.exe.config
+c:\users\iwa\documents\visual studio 2015\Projects\HR2DBF\HR2DBF\bin\Debug\HR2DBF.exe
+c:\users\iwa\documents\visual studio 2015\Projects\HR2DBF\HR2DBF\bin\Debug\HR2DBF.pdb
+c:\users\iwa\documents\visual studio 2015\Projects\HR2DBF\HR2DBF\bin\Debug\Ionic.Zip.dll
+c:\users\iwa\documents\visual studio 2015\Projects\HR2DBF\HR2DBF\bin\Debug\SocialExplorer.FastDBF.dll
+c:\users\iwa\documents\visual studio 2015\Projects\HR2DBF\HR2DBF\obj\Debug\HR2DBF.exe
+c:\users\iwa\documents\visual studio 2015\Projects\HR2DBF\HR2DBF\obj\Debug\HR2DBF.pdb
+C:\Users\Iwa\Documents\Visual Studio 2015\Projects\HR2DBF\HR2DBF\obj\Debug\HR2DBF.csprojResolveAssemblyReference.cache
+E:\#IWA\HR2DBF V2\HR2DBF\bin\Debug\HR2DBF.exe.config
+E:\#IWA\HR2DBF V2\HR2DBF\obj\Debug\HR2DBF.exe
+E:\#IWA\HR2DBF V2\HR2DBF\obj\Debug\HR2DBF.pdb
+E:\#IWA\HR2DBF V2\HR2DBF\bin\Debug\HR2DBF.exe
+E:\#IWA\HR2DBF V2\HR2DBF\bin\Debug\HR2DBF.pdb
+E:\#IWA\HR2DBF V2\HR2DBF\bin\Debug\Ionic.Zip.dll
+E:\#IWA\HR2DBF V2\HR2DBF\bin\Debug\SocialExplorer.FastDBF.dll
+E:\#IWA\HR2DBF V2\HR2DBF\obj\Debug\HR2DBF.csprojResolveAssemblyReference.cache
+E:\#IWA\HR2DBF V2\HR2DBF\obj\Debug\HR2DBF.frmMain.resources
+E:\#IWA\HR2DBF V2\HR2DBF\obj\Debug\HR2DBF.Properties.Resources.resources
+E:\#IWA\HR2DBF V2\HR2DBF\obj\Debug\HR2DBF.csproj.GenerateResource.Cache

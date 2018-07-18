@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B87D8E9C-EE02-4834-956F-9DE4E2E1C763}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HR2DBF</RootNamespace>
+    <AssemblyName>HR2DBF</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>1126.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ionic.Zip">
+      <HintPath>D:\backoff\Ionic.Zip.dll</HintPath>
+    </Reference>
+    <Reference Include="SocialExplorer.FastDBF">
+      <HintPath>E:\#IWA\HR2DBF\HR2DBF\SocialExplorer.FastDBF.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NSThemeV2.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ThemeBase154.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <EmbeddedResource Include="FileDBF\BKL.DBF" />
+    <EmbeddedResource Include="FileDBF\CANCEL.DBF" />
+    <EmbeddedResource Include="FileDBF\CIN.DBF" />
+    <EmbeddedResource Include="FileDBF\CONST.DBF" />
+    <EmbeddedResource Include="FileDBF\CRT.DBF" />
+    <EmbeddedResource Include="FileDBF\DBT.DBF" />
+    <EmbeddedResource Include="FileDBF\DT.DBF" />
+    <EmbeddedResource Include="FileDBF\HP.DBF" />
+    <EmbeddedResource Include="FileDBF\HRN.DBF" />
+    <EmbeddedResource Include="FileDBF\LPM.DBF" />
+    <EmbeddedResource Include="FileDBF\MSTRAN.DBF" />
+    <EmbeddedResource Include="FileDBF\MSTRANV2.DBF" />
+    <EmbeddedResource Include="FileDBF\MTRAN.DBF" />
+    <EmbeddedResource Include="FileDBF\NT.DBF" />
+    <EmbeddedResource Include="FileDBF\PBK.DBF" />
+    <EmbeddedResource Include="FileDBF\PL.DBF" />
+    <EmbeddedResource Include="FileDBF\PR.DBF" />
+    <EmbeddedResource Include="FileDBF\PROD.DBF" />
+    <EmbeddedResource Include="FileDBF\RET.DBF" />
+    <EmbeddedResource Include="FileDBF\RGL.DBF" />
+    <EmbeddedResource Include="FileDBF\RKL.DBF" />
+    <EmbeddedResource Include="FileDBF\SLP.DBF" />
+    <EmbeddedResource Include="FileDBF\ST.DBF" />
+    <EmbeddedResource Include="FileDBF\STMAST.DBF" />
+    <EmbeddedResource Include="FileDBF\TL.DBF" />
+    <EmbeddedResource Include="FileDBF\TOKO.DBF" />
+    <EmbeddedResource Include="FileDBF\WT.DBF" />
+    <EmbeddedResource Include="FileDBF\WU.DBF" />
+    <EmbeddedResource Include="FileDBF\FILET.DBF" />
+    <EmbeddedResource Include="FileDBF\BAYAR.DBF" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="1126.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

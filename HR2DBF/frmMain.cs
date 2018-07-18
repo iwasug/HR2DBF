@@ -51,21 +51,21 @@ namespace HR2DBF
             KONV.Rows.Add("PR", "|");
             KONVBLN.Columns.Add("FILE", typeof(string));
             KONVBLN.Columns.Add("KOMA", typeof(string));
-            //KONVBLN.Rows.Add("CONST", ","); //OK
+            KONVBLN.Rows.Add("CONST", ","); //OK
             KONVBLN.Rows.Add("BYR", ","); //OK
-            //KONVBLN.Rows.Add("BKL", ",");//OK
-            //KONVBLN.Rows.Add("HPC", ",");//OK
-            //KONVBLN.Rows.Add("HARIAN", ",");//OK
-            //KONVBLN.Rows.Add("HP", ",");//OK
-            //KONVBLN.Rows.Add("LPM", ",");//OK
-           // KONVBLN.Rows.Add("MSTRAN", ",");//OK
-           // KONVBLN.Rows.Add("MTRAN", ",");//OK
-           // KONVBLN.Rows.Add("PROD", ",");//OK
+            KONVBLN.Rows.Add("BKL", ",");//OK
+            KONVBLN.Rows.Add("HPC", ",");//OK
+            KONVBLN.Rows.Add("HARIAN", ",");//OK
+            KONVBLN.Rows.Add("HP", ",");//OK
+            KONVBLN.Rows.Add("LPM", ",");//OK
+            KONVBLN.Rows.Add("MSTRAN", ",");//OK
+            KONVBLN.Rows.Add("MTRAN", ",");//OK
+            KONVBLN.Rows.Add("PROD", ",");//OK
             //KONVBLN.Rows.Add("RET", ",");//OK
             //KONVBLN.Rows.Add("RKL", ",");//OK
-           // KONVBLN.Rows.Add("TOKO", ",");//OK
-          //  KONVBLN.Rows.Add("FILET", ",");//OK
-           // KONVBLN.Rows.Add("STMAST", ",");//OK
+            KONVBLN.Rows.Add("TOKO", ",");//OK
+            KONVBLN.Rows.Add("FILET", ",");//OK
+            KONVBLN.Rows.Add("STMAST", ",");//OK
             lbCount = "-";
         }
 
